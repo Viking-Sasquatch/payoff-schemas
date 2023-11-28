@@ -1,0 +1,24 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"description": "An account's branch",
+	"$id": "branch.schema.json",
+	"properties": {
+		"callbackNumber": {
+			"type": "string",
+			"description": "Call back phone number"
+		},
+		"logoImageUri": {
+			"type": "string",
+			"description": "URI to logo image"
+		},
+		"name": {
+			"type": "string",
+			"description": "The name of the branch"
+		},
+		"splashImageUri": {
+			"type": "string",
+			"description": "URI to splash image"
+		}
+	}
+}
